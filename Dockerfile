@@ -10,6 +10,7 @@ RUN sed -i -e "s/deb.debian/ftp.hk.debian/g" /etc/apt/sources.list \
 	wget \
 	fonts-wine \
 	ttf-mscorefonts-installer \
+	winbind \
 	winetricks \
 	wine32 \
 	fonts-droid-fallback \
