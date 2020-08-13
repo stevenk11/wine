@@ -14,4 +14,5 @@ RUN sed -i -e "s/deb.debian/ftp.hk.debian/g" /etc/apt/sources.list \
 	winetricks \
 	wine32 \
 	fonts-droid-fallback \
+        zenity \
 	&& rm -rf /var/lib/apt/lists/*
