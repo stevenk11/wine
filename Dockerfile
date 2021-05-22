@@ -17,5 +17,3 @@ RUN sed -i -e "s/deb.debian/ftp.hk.debian/g" /etc/apt/sources.list \
         zenity \
 	&& rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["/bin/bash" "-c"]
-
